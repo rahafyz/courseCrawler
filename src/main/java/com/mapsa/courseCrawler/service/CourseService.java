@@ -23,8 +23,8 @@ public class CourseService {
 
     private static void threadRunner(){
         try {
-            Thread tUdemy = new Thread(coursera);
-            tUdemy.start();
+            Thread tCoursera = new Thread(coursera);
+            tCoursera.start();
             Thread tedX = new Thread(edX);
             tedX.start();
             Thread tFaradars = new Thread(faradars);
